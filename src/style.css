@@ -1,0 +1,26 @@
+:root {
+  --primary-color: blue;
+  --secondary-color: red;
+  --black-color: #000000;
+  --black-color-dark: #1a1a1a;
+  --black-color-light: #999999;
+  --white-color: #ffffff;
+  --white-color-light: #f5f4f0;
+  --primary-font: "Lora", serif;
+  --secondary-font: "Roboto", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  color: var(--black-color-light);
+  font-family: var(--primary-font);
+}
